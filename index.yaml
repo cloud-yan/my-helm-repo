@@ -1,9 +1,20 @@
 apiVersion: v1
 entries:
+  mywebapp:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2025-05-25T09:48:32.1572973+05:30"
+    description: A Helm chart for Kubernetes
+    digest: 634668c9fed10e737d82b245786798bf43dc986de00a9762134a49fe87e70b88
+    name: mywebapp
+    type: application
+    urls:
+    - mywebapp-0.1.0.tgz
+    version: 0.1.0
   payments:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2025-05-25T00:31:20.6372231+05:30"
+    created: "2025-05-25T09:48:32.1584011+05:30"
     description: A Helm chart for Kubernetes
     digest: f4664227cbaa96d3189d8e3101e19113e049d206dffe8ce23a196be3fc793374
     name: payments
@@ -11,4 +22,4 @@ entries:
     urls:
     - payments-0.1.0.tgz
     version: 0.1.0
-generated: "2025-05-25T00:31:20.6356189+05:30"
+generated: "2025-05-25T09:48:32.1556823+05:30"
